@@ -1,0 +1,82 @@
+body{
+  background-image: url("https://media.wired.com/photos/5b7f64cbbe2f8d3a624b77b2/4:3/w_2000,c_limit/SPoW_82318_01.jpg");
+/*   animation-name:bgMove;
+  animation-duration:100s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction:normal, alternate; */
+  
+
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  animation-name:colorChange;
+  animation-duration:5s;
+  animation-iteration-count: infinite;
+/*   animation-direction: alternate; */
+
+}
+
+@keyframes colorChange{
+  from{color:red}
+  20%{color:orange}
+  40%{color:yellow}
+  60%{color:green}
+  80%{color:blue}
+  100%{color:purple}
+}
+
+
+
+.row{
+/*   border:black solid 1px; */
+  display:flex;
+  justify-content: center;
+  
+}
+
+.box{
+  border:black solid 1px;
+  width:50px;
+  height:50px;
+  margin: 0.1% 0.1% 0.1% 0.1%;
+}
+
+#theGreatDiv{
+  width: 70%;
+  margin: auto;
+  height: 150%;
+  border-radius:250px;
+  background:green;
+  box-shadow:0px 0px 10px blue;
+}
+
+img{
+  width: 100%;
+}
+
+#statusBar{
+color: white;
+}
+
+#buildings, #speedDiv{
+  text-align:center;
+}
+
+/* @keyframes bgMove{
+/*   from{background-position:0%;}
+  to{background-position:100%} */
+/*   from{
+      background-position:0%;
+  }
+  to{
+    background-position:100%;
+  }
+  
+} */
+
+#instructions{
+text-align:center;
+}
