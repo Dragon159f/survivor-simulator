@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survival Simulator</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Your CSS Linked Below-->
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- jQuery Linked Below-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Your Javascript Linked Below-->
+    <script src="/script.js" defer></script>
+    <script src="/models.js" defer></script>
+    <!--Bootstrap Linked Below-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="statusBar">
+      <div id="timerDiv">
+        <label>Timer: </label>
+        <label id="minutes">00</label>:<label id="seconds">00</label>  
+      </div>
+      <div id="pollutionDiv">
+      </div>
+      <div id="energyDiv">
+      </div>
+      <div id="moneyDiv">
+      </div>
+    </div>
+    
+    <h1>
+      Survivor Simulator
+    </h1>
+<!--     <h1>Welcome to the Code Nation Hackathon!!!!!!</h1>
+    <img src="https://cdn.glitch.com/62d18fc3-0950-4070-8406-d751d12c5416%2FBayArea.png?1550265963613">
+    <p>
+      I'm your cool new webpage. Made with 
+      <a href="https://www.glitch.com">Glitch</a>
+    </p>
+    -->
+    <div id="buildings">
+      <h3 style="color: white;">Buildings</h3>
+        <select id="buildingVal">
+          <option value="Factory">Factory - $5000</option>
+          <option value="CoalPlant">Coal Plant - $2000</option>
+          <option value="SolarPanel">Solar Panel - $8000</option>
+          <option value="WindMill">Windmill - $5000</option>
+          <option value="Nuclear">Nuclear Power Plant - $12000</option>
+        </select>
+    </div>
+    <div id="instructions">
+      <a id="instuctionPage" href="./instructions.html">Instructions</a>
+    </div>
+    <div id="speed">
+      <h3 style="color: white;">Speed</h3>
+        <select id="speedVal">
+          <option value="Slow">Slow</option>
+          <option value="Medium">Medium</option>
+          <option value="Fast">Fast</option>
+        </select>
+    </div>
+    
+    <div id="theGreatDiv"></div>
+      
+    
+    
+    
+  </body>
+</html>
